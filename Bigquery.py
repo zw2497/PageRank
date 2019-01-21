@@ -17,10 +17,6 @@ README
     The rank should be correct. The score maybe different, because I handle dangling node and reducible graph.
 """
 
-
-uni1 = 'zw2497' # Your uni
-uni2 = 'None' # Partner's uni. If you don't have a partner, put None
-
 # Test function
 def testquery(client):
     q = """select * from `w4111-columbia.graph.tweets` limit 3"""
